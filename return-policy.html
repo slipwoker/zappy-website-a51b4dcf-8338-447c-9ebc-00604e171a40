@@ -354,7 +354,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     // Preview pages are served by the current Zappy origin, which may be a
     // remote tunnel/QA host rather than this server's baked SERVER_URL.
     // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = "https://api.zappy5.com"</script>
+    window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview'))
+      ? window.location.origin
+      : "https://api.zappy5.com";
+  </script>
   
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
@@ -370,10 +373,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </div>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -466,15 +469,15 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/wala-beauty-natural-beauty-skincare-e-commerce-logo.webp" alt="Wala beauty" class="logo" data-element-type="image" data-element-id="img-1783959445733-kd38e1ml4" data-zappy-footer-image="true" decoding="async" width="35" height="35">
-        <p class="footer-tagline">ن منقدملك &nbsp;منتجات عنايه طبيعيه وآمنه لإنك بتستحقي&nbsp;</p>
+        <img src="/assets/wala-beauty-natural-beauty-skincare-e-commerce-logo.webp" alt="Wala beauty" class="logo" data-element-type="image" data-element-id="img-1783959445733-kd38e1ml4" data-zappy-footer-image="true" style="" decoding="async" width="35" height="35">
+        <p class="footer-tagline" style="">منقدملك &nbsp;منتجات عنايه طبيعيه وآمنه لإنك بتستحقي&nbsp;</p>
       </div>
 
       <!-- Quick Links -->
       <div class="footer-col footer-links-col">
-        <h4>روابط سريعة</h4>
+        <h4 style="">روابط سريعة</h4>
         <ul class="footer-links">
-          <li><a href="/">الرئيسية</a></li>
+          <li><a href="/" style="">الرئيسية</a></li>
           <li><a href="/rituals">الطقوس</a></li>
           <li><a href="/ingredients-journal">سجل المكونات</a></li>
           <li><a href="/about">من نحن</a></li>
