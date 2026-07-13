@@ -365,13 +365,13 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "a51b4dcf-8338-447c-9ebc-00604e171a40";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">انتقل إلى المحتوى الرئيسي</a>
+<script>window.ZAPPY_WEBSITE_ID = "a51b4dcf-8338-447c-9ebc-00604e171a40";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">انتقل إلى المحتوى الرئيسي</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -880,10 +880,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="الرئيسية-hero" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="الرئيسية-hero" data-hero-type="fullscreen-scrim" id="index-hero-section">
   <!-- Background Image -->
   <div class="hero-bg-wrapper">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic botanical still-life: natural skincare oils in glass vessels, fresh eucalyptus and lavender leaves, soft handmade paper textures, warm earthy tones with soft natural light, premium editorial composition" width="1200" height="800" src="/assets/site-index-hero-image-1.webp" alt="منتجات العناية الطبيعية من والا بيوتي" class="hero-bg-img" decoding="async">
+    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic botanical still-life: natural skincare oils in glass vessels, fresh eucalyptus and lavender leaves, soft handmade paper textures, warm earthy tones with soft natural light, premium editorial composition" width="1200" height="800" src="/assets/site-index-hero-image-1.webp" alt="منتجات العناية الطبيعية من والا بيوتي" class="hero-bg-img" data-hero-background="true" data-element-type="image" data-element-id="img-1783960022517-l8oj0pj9a" decoding="async">
   </div>
 
   <!-- Scrim Overlay -->
@@ -924,10 +924,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   <!-- Text Overlay Group -->
   <div class="hero-overlay">
     <h1 class="hero-headline">طقوس يومية من عناية الطبيعة</h1>
-    <h3 class="hero-subtitle">تركيبات نباتية نقية للوجه والجسم والشعر، مصممة برفق للبشرة الحساسة وطقوس العناية اليومية.</h3>
+    <h3 class="hero-subtitle" style="">Natural skin care&nbsp;</h3>
     <div class="hero-ctas">
-      <a href="#rituals" class="btn-primary-hero">استكشفي الطقوس</a>
-      <a href="#contact" class="btn-secondary-hero">تواصلي معنا للإرشاد</a>
+      <a href="#rituals" class="btn-primary-hero" data-element-type="button" data-element-id="btn-1783960022514-hg2xpfc7s" data-native-element="true" style="outline: medium;">استكشفي الطقوس</a>
+      <a href="#contact" class="btn-secondary-hero" data-element-type="button" data-element-id="btn-1783960022514-i012qmojv" data-native-element="true">تواصلي معنا للإرشاد</a>
     </div>
   </div>
 
@@ -1271,15 +1271,15 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/wala-beauty-natural-beauty-skincare-e-commerce-logo.webp" alt="Wala beauty" class="logo" data-element-type="image" data-element-id="img-1783959445733-kd38e1ml4" data-zappy-footer-image="true" decoding="async" width="35" height="35">
-        <p class="footer-tagline">ن منقدملك &nbsp;منتجات عنايه طبيعيه وآمنه لإنك بتستحقي&nbsp;</p>
+        <img src="/assets/wala-beauty-natural-beauty-skincare-e-commerce-logo.webp" alt="Wala beauty" class="logo" data-element-type="image" data-element-id="img-1783959445733-kd38e1ml4" data-zappy-footer-image="true" style="" decoding="async" width="35" height="35">
+        <p class="footer-tagline" style="">منقدملك &nbsp;منتجات عنايه طبيعيه وآمنه لإنك بتستحقي&nbsp;</p>
       </div>
 
       <!-- Quick Links -->
       <div class="footer-col footer-links-col">
-        <h4>روابط سريعة</h4>
+        <h4 style="">روابط سريعة</h4>
         <ul class="footer-links">
-          <li><a href="/">الرئيسية</a></li>
+          <li><a href="/" style="">الرئيسية</a></li>
           <li><a href="/rituals">الطقوس</a></li>
           <li><a href="/ingredients-journal">سجل المكونات</a></li>
           <li><a href="/about">من نحن</a></li>
@@ -1316,7 +1316,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <h4>تابعينا</h4>
         <div class="footer-social">
           <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1783959445732-vqlaybbti" data-icon-type="fontawesome"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="53" height="53" viewBox="0 0 24 24" data-icon="akar-icons:instagram-fill" data-iconify="akar-icons:instagram-fill" data-element-type="icon" data-element-id="icon-1783959445732-vqlaybbti" data-icon-type="iconify" data-size-adjusted="true" style="width: 53px !important; height: 53px !important; display: inline-block; vertical-align: -0.125em; color: rgb(108, 125, 118);" class="iconify iconify--akar-icons"><path fill="currentColor" fill-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1s3.362.013 4.534.066s1.972.24 2.672.511c.733.277 1.398.71 1.948 1.27c.56.549.992 1.213 1.268 1.947c.272.7.458 1.5.512 2.67C22.988 8.639 23 9.013 23 12s-.013 3.362-.066 4.535c-.053 1.17-.24 1.97-.512 2.67a5.4 5.4 0 0 1-1.268 1.949c-.55.56-1.215.992-1.948 1.268c-.7.272-1.5.458-2.67.512c-1.174.054-1.548.066-4.536.066s-3.362-.013-4.535-.066c-1.17-.053-1.97-.24-2.67-.512a5.4 5.4 0 0 1-1.949-1.268a5.4 5.4 0 0 1-1.269-1.948c-.271-.7-.457-1.5-.511-2.67C1.012 15.361 1 14.987 1 12s.013-3.362.066-4.534s.24-1.972.511-2.672a5.4 5.4 0 0 1 1.27-1.948a5.4 5.4 0 0 1 1.947-1.269c.7-.271 1.5-.457 2.67-.511m8.98 1.98c-1.16-.053-1.508-.064-4.445-.064s-3.285.011-4.445.064c-1.073.049-1.655.228-2.043.379c-.513.2-.88.437-1.265.822a3.4 3.4 0 0 0-.822 1.265c-.151.388-.33.97-.379 2.043c-.053 1.16-.064 1.508-.064 4.445s.011 3.285.064 4.445c.049 1.073.228 1.655.379 2.043c.176.477.457.91.822 1.265c.355.365.788.646 1.265.822c.388.151.97.33 2.043.379c1.16.053 1.507.064 4.445.064s3.285-.011 4.445-.064c1.073-.049 1.655-.228 2.043-.379c.513-.2.88-.437 1.265-.822c.365-.355.646-.788.822-1.265c.151-.388.33-.97.379-2.043c.053-1.16.064-1.508.064-4.445s-.011-3.285-.064-4.445c-.049-1.073-.228-1.655-.379-2.043c-.2-.513-.437-.88-.822-1.265a3.4 3.4 0 0 0-1.265-.822c-.388-.151-.97-.33-2.043-.379m-5.85 12.345a3.669 3.669 0 0 0 4-5.986a3.67 3.67 0 1 0-4 5.986M8.002 8.002a5.654 5.654 0 1 1 7.996 7.996a5.654 5.654 0 0 1-7.996-7.996m10.906-.814a1.337 1.337 0 1 0-1.89-1.89a1.337 1.337 0 0 0 1.89 1.89" clip-rule="evenodd"></path></svg></a>
           <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1783959445732-yvyjqe24g" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
