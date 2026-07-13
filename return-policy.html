@@ -354,7 +354,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     // Preview pages are served by the current Zappy origin, which may be a
     // remote tunnel/QA host rather than this server's baked SERVER_URL.
     // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = "https://api.zappy5.com"</script>
+    window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview'))
+      ? window.location.origin
+      : "https://api.zappy5.com";
+  </script>
   
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
@@ -370,10 +373,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </div>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -466,15 +469,15 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/wala-beauty-natural-beauty-skincare-e-commerce-logo.webp" alt="Wala beauty" class="logo" decoding="async" width="35" height="35">
-        <p class="footer-tagline">نقدم لكِ طقوسًا طبيعية للعناية بالبشرة مستوحاة من سجل المكونات النباتية، لتعيشي تجربة جمالية هادئة وفاخرة.</p>
+        <img src="/assets/wala-beauty-natural-beauty-skincare-e-commerce-logo.webp" alt="Wala beauty" class="logo" data-element-type="image" data-element-id="img-1783959445733-kd38e1ml4" data-zappy-footer-image="true" style="" decoding="async" width="35" height="35">
+        <p class="footer-tagline" style="">نقمنقدملك منتجات عنايه طبيعيه وآمنه لإنك بتستحقي&nbsp;</p>
       </div>
 
       <!-- Quick Links -->
       <div class="footer-col footer-links-col">
         <h4>روابط سريعة</h4>
         <ul class="footer-links">
-          <li><a href="/">الرئيسية</a></li>
+          <li><a href="/" style="">الرئيسية</a></li>
           <li><a href="/rituals">الطقوس</a></li>
           <li><a href="/ingredients-journal">سجل المكونات</a></li>
           <li><a href="/about">من نحن</a></li>
@@ -487,11 +490,11 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <h4>اتصل بنا</h4>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1783959445732-zs95n9x2n" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1783959445732-wp52fg67m" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
@@ -514,8 +517,8 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <h4>تابعينا</h4>
         <div class="footer-social">
           <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1783959445732-vqlaybbti" data-icon-type="fontawesome"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1783959445732-yvyjqe24g" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
     </div>
@@ -531,8 +534,8 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
             </a>
         <a href="/accessibility">إمكانية الوصول</a>
       </div>
-      <a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a>
-    </div>
+      <p class="zappy-editable"><a href="https://zappy5.com" target="_blank" class="zappy-attribution">Generated by Zappy</a>
+    </p></div>
   </div>
 </footer>
   
