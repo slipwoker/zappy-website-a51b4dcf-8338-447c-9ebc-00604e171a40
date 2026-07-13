@@ -7,73 +7,73 @@
 ## Pages
 
 ### الرئيسية
-https://wala-beauty-a51b4dcf.zappy5.app
+https://example.com
 متجر متكامل لمنتجات العناية بالبشرة والشعر والجسم من مكونات طبيعية نقية. تسوقي أفضل منتجات العناية بالوجه والجسم العلاجية وتمتعي بجمال صحي وآمن. ابدئي رحلتك الآن!
 
 ### الطقوس
-https://wala-beauty-a51b4dcf.zappy5.app/rituals
+https://example.com/rituals
 اغمري نفسك بطقوس عناية مستوحاة من الطبيعة لتحويل روتينك اليومي إلى لحظات نقاء. اكتشفي أسرار العناية بالبشرة والشعر بمنتجات نباتية خالصة. اخلقي طقسك الخاص اليوم!
 
 ### سجل المكونات
-https://wala-beauty-a51b4dcf.zappy5.app/ingredients-journal
+https://example.com/ingredients-journal
 تعرفي على قوة الطبيعة من خلال سجل مكوناتنا الشفاف. كل مكون طبيعي في منتجات العناية بالوجه والشعر له قصة علاجية تمنحك جمالاً حقيقياً. استكشفي المكونات الآن!
 
 ### من نحن
-https://wala-beauty-a51b4dcf.zappy5.app/about
+https://example.com/about
 تعرفي على رؤية Wala beauty في تقديم منتجات عناية شخصية تجمع بين الفعالية والنقاء. نؤمن بقوة المكونات النباتية لمنحك بشرة وشعراً مفعماً بالصحة. انضمي لعالمنا الطبيعي!
 
 ### اتصل بنا
-https://wala-beauty-a51b4dcf.zappy5.app/contact
+https://example.com/contact
 هل لديك استفسار عن منتجات العناية بالبشرة أو الشعر؟ فريق Wala beauty هنا لمساعدتك في اختيار الأنسب لروتينك الطبيعي. تواصلي معنا وشاركينا تجربتك الفريدة!
 
 ### Products
-https://wala-beauty-a51b4dcf.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Wala beauty
 
 ### Cart
-https://wala-beauty-a51b4dcf.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://wala-beauty-a51b4dcf.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://wala-beauty-a51b4dcf.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://wala-beauty-a51b4dcf.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://wala-beauty-a51b4dcf.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://wala-beauty-a51b4dcf.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Wala beauty
 
 ### Category
-https://wala-beauty-a51b4dcf.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Wala beauty
 
 ### شكراً لتواصلك معنا
-https://wala-beauty-a51b4dcf.zappy5.app/thank-you
+https://example.com/thank-you
 Wala beauty - شكراً لتواصلك معنا
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://wala-beauty-a51b4dcf.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://wala-beauty-a51b4dcf.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://wala-beauty-a51b4dcf.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -102,8 +102,8 @@ Natural Beauty & Skincare E-commerce
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://wala-beauty-a51b4dcf.zappy5.app/sitemap.xml
-- Robots: https://wala-beauty-a51b4dcf.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://wala-beauty-a51b4dcf.zappy5.app/llms-full.txt
-- Products (JSON): https://wala-beauty-a51b4dcf.zappy5.app/products.json
-- Products (Google Merchant RSS): https://wala-beauty-a51b4dcf.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml

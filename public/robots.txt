@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://wala-beauty-a51b4dcf.zappy5.app/sitemap.xml
+Sitemap: https://example.com/sitemap.xml
